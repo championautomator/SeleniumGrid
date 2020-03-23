@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-24T09:44:59 AEDT" name="Suite" finished-at="2020-03-24T09:45:13 AEDT" duration-ms="13998">
+    <groups>
+    </groups>
+    <test started-at="2020-03-24T09:44:59 AEDT" name="Test1" finished-at="2020-03-24T09:45:10 AEDT" duration-ms="10438">
+      <class name="com.test.LoginTestChrome">
+        <test-method signature="setup()[pri:1, instance:com.test.LoginTestChrome@3901d134]" started-at="2020-03-24T09:44:59 AEDT" name="setup" finished-at="2020-03-24T09:45:02 AEDT" duration-ms="2461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:2, instance:com.test.LoginTestChrome@3901d134]" started-at="2020-03-24T09:45:02 AEDT" name="login" finished-at="2020-03-24T09:45:10 AEDT" duration-ms="7936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.test.LoginTestChrome -->
+    </test> <!-- Test1 -->
+    <test started-at="2020-03-24T09:44:59 AEDT" name="Test3" finished-at="2020-03-24T09:45:13 AEDT" duration-ms="13196">
+      <class name="com.test.LoginTestEdge">
+        <test-method signature="setup()[pri:1, instance:com.test.LoginTestEdge@5dd6264]" started-at="2020-03-24T09:44:59 AEDT" name="setup" finished-at="2020-03-24T09:45:05 AEDT" duration-ms="5514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:2, instance:com.test.LoginTestEdge@5dd6264]" started-at="2020-03-24T09:45:05 AEDT" name="login" finished-at="2020-03-24T09:45:13 AEDT" duration-ms="7646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.test.LoginTestEdge -->
+    </test> <!-- Test3 -->
+    <test started-at="2020-03-24T09:44:59 AEDT" name="Test2" finished-at="2020-03-24T09:45:13 AEDT" duration-ms="13998">
+      <class name="com.test.LoginTestFireFox">
+        <test-method signature="setup()[pri:1, instance:com.test.LoginTestFireFox@12b0404f]" started-at="2020-03-24T09:44:59 AEDT" name="setup" finished-at="2020-03-24T09:45:02 AEDT" duration-ms="3003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:2, instance:com.test.LoginTestFireFox@12b0404f]" started-at="2020-03-24T09:45:02 AEDT" name="login" finished-at="2020-03-24T09:45:13 AEDT" duration-ms="10963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.test.LoginTestFireFox -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
